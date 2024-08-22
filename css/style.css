@@ -1,0 +1,317 @@
+body{
+    background: #f2f2f2;
+    margin:0;
+    color:#333;
+    font-family: 'Roboto',sans-serif;
+    text-align: justify;
+}
+
+.container{
+    max-width: 1200px;
+    overflow: hidden;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+#topo{
+    background:#272930;
+    width: 100%;
+    overflow: hidden;
+    position: fixed;
+    z-index: 10;
+    
+    
+    
+}
+
+
+.logo{
+    color:#fff;
+    font-size: 32px;
+    text-transform: uppercase;
+    float:left;
+    padding-top: 10px;
+}
+
+.logo img{
+    width: 150px;
+    height: 60px;
+    border-radius: 50%;
+    vertical-align: middle;
+   
+}
+
+.menu{
+    float:right;
+
+}
+
+.menu .nav{
+    padding: 0;
+    list-style: none;
+
+}
+
+.menu .nav li{
+    display: inline-block;
+    padding: 15px;
+   
+
+}
+
+.nav li a{
+    color:#fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav li a:hover{
+    color:#2d6ff7;
+    transition: 900ms;
+
+}
+
+#banner{
+    background: url(imagens/computer.jpg) no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    position: relative;
+}
+
+
+#banner h2{
+    text-align: center;
+    margin:0;
+    padding-top: 130px;
+    font-size:62px;
+    color:#fff;
+    position: relative;
+    text-shadow: 2px 2px 3px #333;
+    
+
+}
+
+#banner .filtro{
+    width: 100%;
+    height: 100%;
+    background: #333;
+    position: absolute;
+    top:0;left:0;
+    opacity: 0.75;
+   
+}
+
+#conteudo{
+    min-height: 500px;
+}
+
+#conteudo .container{
+    background: #fff;
+    border: 1px solid #ddd;
+}
+
+#conteudo .container h1{
+   font-size: 32px;
+}
+
+#conteudo .figura{
+    width: 100%;
+    height: 600px;
+    border-radius: 10px;
+    border:3px solid #999;
+    
+}
+
+#conteudo .info{
+    width: 75%;
+    float: left;
+    padding: 25px 20px;
+    box-sizing: border-box;
+    text-align: justify;
+    line-height: 24px;
+
+}
+
+#conteudo .lateral{
+    width: 25%;
+    height: 100%;
+    float: right;
+    padding: 25px 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+
+.lateral .ultimas-noticias img{
+    float: left;
+    width: 90%;
+    border:2px solid #999;
+    box-sizing: border-box;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    margin-bottom: 20px;
+    margin-left:10px;
+
+}
+
+.lateral .ultimas-noticias img:hover{
+    cursor: pointer; 
+    transition: 0.3s;
+    transform: scale(1.1);
+   
+   
+}
+
+.lateral  h2{
+    font-weight: bolder;
+    font-size: 32px;
+    text-align: center;
+
+}
+
+.lateral .ultimas-noticias h3{
+    text-align: center;
+}
+
+#rodape .rodape{
+    background: #999;
+    width: 100%;
+    
+}
+
+.menu-lateral {
+    margin-top:300px;
+
+}
+
+.menu-lateral ul{
+    list-style: none;
+    padding: 0;
+
+}
+
+.menu-lateral li a{
+    text-decoration: none;
+    color:#333;
+    font-size:18px;
+    padding-left: 5px;
+
+}
+
+.menu-lateral ul li{
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border-bottom: 1px dashed #333;
+    font-weight: bold;
+}
+
+.menu-lateral li a:hover{
+    color:#2d6ff7;
+    transition: 900ms;
+
+}
+
+#rodape{
+    background: #272930;
+    color:#ddd;
+    text-align: center;
+    padding: 40px 10px;
+   
+}
+
+.container figcaption{
+    text-align: center;
+}
+
+#rodape .container{
+    display: flex;
+    justify-content: space-around;
+    overflow: hidden;
+    padding: 40px;
+   
+}
+
+#rodape .container .sec{
+    width: 150px;
+    height: 150px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    transition: all 0.3s ease;
+   
+    
+}
+
+
+#rodape p{
+    margin-top: 50px;
+}
+
+
+#rodape .container .sec:hover{
+    scale: 1.1;
+    transition: 0.3s;
+    cursor: pointer;
+
+}
+
+.subtitle{
+    font-size: 18px;
+    color:#2d6ff7;
+    margin-top:0;
+}
+
+.forms{
+    border: 1px solid #333;
+    border-radius: 10px;
+    width: 50%;
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: 30px;
+    background: #ddd;
+  
+}
+
+.forms input{
+    padding: 10px;
+    border-radius: 5px;
+    border:1px solid #999;
+    display: block;
+    margin-top: 10px;
+    background: #f7f7f7;
+    
+}
+
+.forms .msg{
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 10px;
+    height: 200px;
+    width: 90%;
+    resize: none;
+    background: #f7f7f7;
+}
+
+.forms .btn{
+    display: flex;
+   margin: 0 auto;
+   margin-top: 10px;
+   border: 1px solid #333;
+   border-radius: 5px;
+   background: #f7f7f7;
+   padding: 5px 10px;
+}
+
+
+
+
+
+
+
+
+
+
