@@ -45,18 +45,46 @@
                 <h1>Entre em contato</h1>
                 <h2 class="subtitle">Fale conosco preenchendo o formulário abaixo</h2>
 
-                <form class="forms" action="#" method="#">
+                <form class="forms" action="#" method="#">        
 
                     <input type="email" name="email" placeholder="Digite seu email" required>
                     <input type="text" name="name" placeholder="Digite seu nome completo">
-                    <textarea class="msg" placeholder="Escreva sua mensagem/dúvida" required></textarea>
+                    <label>Assunto</label>
+                    <select required name="options">
+                    <option value="">--Selecione--</option>
+                    <optgroup label="net">
+                        <option>Problemas gerais</option>
+                        <option>Problemas de rede</option>
+                        <option>Problemas com o site</option>
+                    </optgroup>
+                    <optgroup label="Oportunidades">
+                        <option>Trabalhe conosco</option>
+                        <option>Já trabalho</option>
+                    </optgroup>
+                    <optgroup label="Fale conosco">
+                        <option>Sugestões</option>
+                        <option>Observações</option>
+                    </optgroup>
+                    </select>
+                    
+                    <textarea name="contact" class="msg" placeholder="Escreva sua mensagem/dúvida" required></textarea>
+
                     <button class="btn" type="submit">Enviar</button>
-                                        
+                    <input name="cursos" list="cursos" placeholder="Selecione o curso de interesse">
 
                 </form>
+
+                <datalist id="cursos">
+                    <option>HTML</option>
+                    <option>CSS</option>
+                    <option>PHP</option>
+                    <option>REACT JS</option>
+                </datalist>
+                
                
 
             </article>
+             
             <aside class="lateral">
                 <h2>Destaques da Semana</h2>
                 <div class="noticias">

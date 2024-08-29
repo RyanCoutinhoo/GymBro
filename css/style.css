@@ -306,6 +306,15 @@ body{
    padding: 5px 10px;
 }
 
+.forms label{
+    display: flex;
+    margin-top: 5px;
+}
+
+.forms select{
+    margin-bottom: 10px;
+}
+
 
 
 
