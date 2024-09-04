@@ -6,6 +6,11 @@ body{
     text-align: justify;
 }
 
+a{
+    text-decoration: none;
+    color:#000;
+}
+
 .container{
     max-width: 1200px;
     overflow: hidden;
@@ -106,6 +111,7 @@ body{
     min-height: 500px;
 }
 
+
 #conteudo .container{
     background: #fff;
     border: 1px solid #ddd;
@@ -131,6 +137,10 @@ body{
     text-align: justify;
     line-height: 24px;
 
+}
+
+#conteudo .info.completa{
+    width: 100%;
 }
 
 #conteudo .lateral{
@@ -315,6 +325,55 @@ body{
     margin-bottom: 10px;
 }
 
+/*Layout em Colunas*/
+.info .center-title{
+    text-align: center;
+}
+
+.linha{
+    margin-top: 100px;
+    
+}
+
+
+.linha .coluna{
+    width: 33%;
+    box-sizing: border-box;
+    text-align: center;
+    float: left;
+    padding: 0 20px;
+
+}
+
+.coluna .imagem{
+    width: 100%;
+    max-height: 210px;
+    background: #ddd;
+
+}
+
+.imagem img{
+    width: 100%;
+    height: 210px;
+    border-radius: 10px;
+    border: 2px solid #333;
+
+}
+
+.coluna .imagem:hover{
+    scale: 1.1;
+    transition: 1s;
+    box-shadow: 5px 2px 5px #333;
+}
+
+.coluna h3:hover{
+    color:#2d6ff7;
+    transition: 1s;
+}
+
+.coluna .desc-atle{
+    text-align: justify;
+}
 
 
 
